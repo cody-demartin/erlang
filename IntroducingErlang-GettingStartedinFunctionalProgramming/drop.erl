@@ -8,7 +8,8 @@ export([fall_velocity/1]).
 
 
 %% @doc The parameter distance refers to height the object was dropped from.
-fall_velocity({Planemo, Distance}) ->
+fall_velocity(Where) ->
+    {Planemo, Distance} = Where,
     fall_velocity(Planemo, Distance).
 
 fall_velocity(earth, Distance) when Distance >= 0 ->
