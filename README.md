@@ -1,3 +1,4 @@
-Resources used to aid in this journey:
+Resources:
 
-Erlang Programming 2nd Edition
+Introducing Erlang: Getting Started in Functional Programming
+
